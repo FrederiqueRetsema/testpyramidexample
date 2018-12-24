@@ -13,6 +13,10 @@ public class StartBrowserSelections {
     public static Collection<Object[]> startALocalBrowser(String inItems)
     {
 
+        // [FR] Yet another try: add something from the Pluralsight training... 
+        System.setProperty("webdriver.chrome.driver","/usr/lib/chromium-browser/chromedriver");
+        // --
+        
         List<Object[]> retVal = new ArrayList<Object[]>();
         retVal.add( new Object[]
                 {
