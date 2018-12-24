@@ -14,8 +14,8 @@ public class StartBrowserSelections {
     {
 
         // [FR] Yet another try: add something from the Pluralsight training... 
-        System.setProperty("webdriver.chrome.driver","/usr/lib/chromium-browser/chromedriver");
-        // --
+        // System.setProperty("webdriver.chrome.driver","/usr/lib/chromium-browser/chromedriver");
+        // --didn work---
         
         List<Object[]> retVal = new ArrayList<Object[]>();
         retVal.add( new Object[]
