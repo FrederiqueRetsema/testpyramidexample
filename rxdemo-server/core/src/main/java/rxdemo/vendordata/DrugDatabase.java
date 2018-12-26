@@ -62,8 +62,8 @@ public class DrugDatabase {
          new EDrugClassification[]{EDrugClassification.ANTIANXIETY}));
       drugsInDatabase.add(new DispensableDrug(800, "methadone",
          new EDrugClassification[]{EDrugClassification.ANALGESICS_NARCOTIC}));
-      drugsInDatabase.add(new DispensableDrug(900, "oxycodone",
-         new EDrugClassification[]{EDrugClassification.ANALGESICS_NARCOTIC}));
+//      drugsInDatabase.add(new DispensableDrug(900, "oxycodone",
+//         new EDrugClassification[]{EDrugClassification.ANALGESICS_NARCOTIC}));
       drugsInDatabase.add(new DispensableDrug(1000, "simvastatin",
          new EDrugClassification[]{EDrugClassification.ANTIHYPERLIPIDEMICS}));
 
